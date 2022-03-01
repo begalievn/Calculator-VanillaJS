@@ -5,23 +5,25 @@
 }
 
 .app {
-  width: 600px;
-  max-width: 600px;
-  height: 850px;
+  width: 604px;
+  max-width: 604px;
+  height: 855px;
   background-color: aquamarine;
   margin: 0 auto;
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
 }
 
 .screen {
   width: 600px;
   height: 150px;
-  margin: 10px auto 0;
+  margin: auto 0;
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   font-size: 40px;
-  border: solid 2px black;
 }
 
 .buttons-container {
