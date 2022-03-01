@@ -81,7 +81,7 @@ btnDel.addEventListener("click", () => {
 });
 
 btnComma.addEventListener("click", () => {
-  document.getElementById("screen").innerHTML += ",";
+  document.getElementById("screen").innerHTML += ".";
 });
 
 btnEqual.addEventListener("click", () => {
